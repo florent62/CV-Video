@@ -1,0 +1,88 @@
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url("images/wallpapper.jpg");
+  background-size: 100%;
+  background-color: rgba(41, 41, 41, 0.911);
+}
+body a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+header h1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+header h1 i {
+  font-size: 50%;
+  color: #ffa9b8;
+}
+header .header_section {
+  background-color: #ffa9b8;
+  color: #292929;
+  padding: 1em;
+  border: solid 1.5px #292929;
+  border-radius: 0.6em;
+  font-size: 20px;
+  transition: all 150ms;
+}
+header .header_section:hover {
+  background-color: #292929;
+  color: #ffa9b8;
+  border: solid 1.5px #ffa9b8;
+  transform: scale(1.1);
+}
+
+main section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+main section i {
+  font-size: 20px;
+  color: #292929;
+}
+main section img {
+  width: 20%;
+  margin: 3em;
+  border-radius: 1em;
+  border: solid 2px #292929;
+}
+main section .bouton_categorie, main section .bouton_categorie_alt {
+  /*Alignement de "i" et "texte"*/
+  display: flex;
+  align-items: center;
+  /*Style*/
+  background-color: #ffa9b8;
+  color: #292929;
+  padding: 12px;
+  border: solid 1px #292929;
+  border-radius: 0.5em;
+  font-size: 20px;
+  transition: all 150ms;
+}
+main section .bouton_categorie:hover, main section .bouton_categorie_alt:hover {
+  background-color: #292929;
+  color: #ffa9b8;
+  border: solid 1px #ffa9b8;
+  transform: scale(1.1);
+}
+main section .bouton_categorie:hover i, main section .bouton_categorie_alt:hover i {
+  color: #ffa9b8;
+}
+main section .bouton_categorie_alt {
+  flex-direction: column;
+}
+main .section_colum {
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
