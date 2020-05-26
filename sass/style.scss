@@ -1,12 +1,12 @@
 $primary_color: rgb(255, 169, 184);
 $secondary_color: rgb(41, 41, 41);
+@import "libs/overlay.scss";
 
 body{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     background-image: url("images/wallpapper.jpg");
     background-size: 100%;
     background-color: rgba(41, 41, 41, 0.911);
-    
     a{
         text-decoration: none;
     }

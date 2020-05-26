@@ -14,10 +14,41 @@
         <title>CV Coline NOËL</title>
     </head>
     <body>
+        <!--POP-UP-->
+        <!--POP-UP-->
+        <!--CONTACT POPUP-->
+        <div id="overlay" class="overlay">
+            <div id="popup" class="popup">
+                <h2>Contact <span id="btnClose" class="btnClose">&times;</span></h2>
+                <p>
+                    <i class="fas fa-map-marker-alt"> </i>59000 Lille<br>
+                    <br>
+                    <i class="fas fa-at"> </i>colinenoel62@laposte.net<br>
+                    <br>
+                    <i class="fas fa-mobile-alt"> </i>07 71 65 99 52<br>
+                    <br>
+                    <i class="fab fa-linkedin"> </i><a href="https://www.linkedin.com/in/coline-no%C3%ABl-alternance-ressources-humaines/">Mon profil</a><br>
+                    <br>
+                    <img src="images/QRCode.jpg" alt="QR code profil linkedIn">
+                </p>
+            </div>
+        </div>
+        <!--LOISIRS POPUP-->
+        <div id="overlay_loisirs" class="overlay_loisirs">
+            <div id="popup_loisirs" class="popup_loisirs">
+                <h2>Loisirs <span id="btnClose_loisirs" class="btnClose_loisirs">&times;</span></h2>
+                <p>
+                    LOISIRS ...
+                </p>
+            </div>
+        </div>
+        <!--POP-UP VIDEO-->
+        <!--POP-UP VIDEO-->   
         <header>
-            <a href="#"><div class="header_section"><i class="fas fa-address-card"> </i>Contact</div></a>
+            <a href="#"><div id="btnPopup" class="header_section btnPopup"><i class="fas fa-address-card"> </i>Contact</div></a>
             <h1>Curriculum vitae <i class="fas fa-circle"> </i> Coline NOËL</h1>
-            <a href="#"><div class="header_section"><i class="fas fa-basketball-ball"> </i>Loisirs</div></a>
+            <a href="#"><div id="btnPopup_loisirs" class="header_section btnPopup_loisirs"><i class="fas fa-basketball-ball"> </i>Loisirs</div></a>
+            
         </header>
         
         <main>
@@ -46,4 +77,7 @@
         </main>
 
     </body>
+
+<script src="script.js"></script>
+<script src="script_loisirs.js"></script>
 </html>

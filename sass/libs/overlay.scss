@@ -1,0 +1,36 @@
+.overlay{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    /*TEXTE*/
+    text-align: center;
+    img{
+        width: 15%;
+        border: solid 1px black;
+    }
+}
+
+.popup{
+    margin: 5% auto;
+    width: 45%;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    padding: 1em;
+}
+.btnClose{
+    cursor: pointer;
+    float: right;
+}
+.overlay_loisirs{
+    @extend .overlay;
+}
+.popup_loisirs{
+    @extend .popup;
+}
+.btnClose_loisirs{
+    @extend .btnClose;
+}
